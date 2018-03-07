@@ -1,0 +1,14 @@
+# import Contact from "./generated/prisma.graphql"
+
+type Query {
+  contact(contactId: Int!): Contact
+  contacts: [Contact!]!
+}
+
+type Mutation {
+  createPerson(contactId:Int!,firstName: String!, lastName: String!,phone: String, address: String, email: String): Contact
+  updatePerson(contactId:Int!,firstName: String!, lastName: String!,phone: String, address: String, email: String): Contact
+  deletePerson(contactId:Int!): Contact
+#  deletePost(id: ID!): Post
+#  publish(id: ID!): Post
+}

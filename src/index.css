@@ -1,0 +1,123 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300, 400';
+
+div#root{
+  height: 100%;
+}
+
+body {
+  margin: 0em;
+  padding: 0;
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+  background: rgba(0, 0, 0, 0.05);
+  height: 100%;
+
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+span#list {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  background-color: rgb(204,204,204);
+  padding: 1em;
+
+  vertical-align: top;
+ }
+span#detail{
+  width: 60%;
+  top:0px;
+  border: 0px solid blue;
+  display: inline-block;
+  height: 100%;
+  padding-left: 1em;
+  vertical-align: top;
+}
+
+span#form{
+  width: 60%;
+  top:0px;
+  border: 0px solid blue;
+  display: inline-block;
+  height: 100%;
+  padding: 5px;
+  vertical-align: top;
+}
+
+div#wrapper{
+  top: 0px;
+  border: 0px solid green;
+  height: 100%;
+  background-color: rgb(238,238,238);
+
+}
+
+div.contactwrapper{
+  border-top: 1px solid rgb(102,102,102);
+}
+
+.list{
+  display: inline-block;
+  border: 0px dashed orange;
+  width:100%;
+  line-height: 25px;
+  color: rgb(102,102,102);
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.search{
+  border-radius: 15px;
+  width: 100%;
+  line-height: 20px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+.listtitle{
+  text-align: center;
+}
+
+.link{
+  top: 10px;
+  float: right;
+  border: 1px black;
+  font: bold 14px Arial;
+  text-decoration: none;
+  background-color: rgb(204,204,204);
+  color: #333333;
+  padding: 6px 10px 6px 10px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+
+}
+.heading{
+  display: inline-block;
+
+}
+div#padding{
+padding-top: 20px;
+}
+.input{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin: 10px;
+}
+
+tr{
+  height: 40px;
+}
+td#column1{
+  width: 15%;
+}
+table#table{
+  width: 100%;
+  color: rgb(102,102,102);
+}
